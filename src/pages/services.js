@@ -16,7 +16,7 @@ const ServicePage = ({data}) => (
       subtitle=""
       heroclass="about-background"
     />
-    <Infoblock heading="Read Our Services" />
+    <Infoblock heading="Read Our Services" navlink="/services"/>
     <Servicephotosection />
   </Layout>
 )

@@ -1,5 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+
 body {
   background-color: #bdcace;
+  font-family: 'Poppins', sans-serif;
 }
 
 .bg-theme {
@@ -19,7 +22,7 @@ body {
 }
 
 .about-background {
-  min-height: 30vh;
+  min-height: 40vh;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -34,4 +37,12 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+input {
+  font-family: inherit;
+}
+
+.card {
+  box-shadow: 10px 10px 15px rgba(0,0,0,0.5);
 }

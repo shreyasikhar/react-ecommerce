@@ -6,7 +6,7 @@ export default function Servicephotosection() {
         <div className="bg-theme">
             <div className ="container">
                 <div className="row">
-                    <div className="mx-auto">
+                    <div className="mx-auto pt-3">
                         <Heading title="Our Services" />
                         <div className="card-group mb-5">
                             <div className="card">

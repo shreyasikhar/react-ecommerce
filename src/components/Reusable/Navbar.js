@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import { Link } from 'gatsby'
 import logo from '../../images/logo.png'
-import { FaCartArrowDown } from 'react-icons/fa'
+// import { FaCartArrowDown } from 'react-icons/fa'
 
 export default class Navbar extends Component {
     state = {
@@ -62,11 +62,11 @@ export default class Navbar extends Component {
                                 </li> 
                             )
                         })}
-                        <li className="nav-item">
+                        {/* <li className="nav-item">
                             <Link to="/" className="nav-link text-white">
                                 <FaCartArrowDown className="cart-icon"/>
                             </Link>
-                        </li>
+                        </li> */}
                     </ul>
                 </div>
             </nav>

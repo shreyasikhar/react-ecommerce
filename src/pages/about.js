@@ -18,7 +18,7 @@ const AboutPage = ({data}) => (
       heroclass="about-background"
     />
     <DualInfoblock heading="A Message From CEO" cardImg="https://images.pexels.com/photos/879109/pexels-photo-879109.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"/>
-    <Infoblock heading="About Vision" />
+    <Infoblock heading="About Vision"/>
     <Teamphotosection />
   </Layout>
 )

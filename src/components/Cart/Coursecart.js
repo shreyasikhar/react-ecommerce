@@ -8,7 +8,7 @@ const getCaty = items => {
     })
     let holdCategories = new Set(holdItems)
     let categories = Array.from(holdCategories)
-    categories = ["all", ...categories]
+    categories = ["All", ...categories]
     return categories
 }
 
@@ -25,7 +25,7 @@ export default class Coursecart extends Component {
     catyClicked = category => {
         let keepItSafe = [...this.state.courses]
 
-        if(category === "all"){
+        if(category === "All"){
             this.setState(() => {
                 return { mycourses: keepItSafe }
             })
@@ -70,7 +70,7 @@ export default class Coursecart extends Component {
                                 return (
                                     <div
                                         key={node.id}
-                                        className="col-11 col-md-6 d-flex mx-auto bg-white p-3 mb-4"
+                                        className="col-12 col-md-6 d-flex mx-auto bg-white p-5"
                                     >
                                         <Img fixed={node.image.fixed} />
                                         <div className="flex-grow-1 px-3">

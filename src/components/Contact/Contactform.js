@@ -7,7 +7,7 @@ export default function Contactform() {
             <div className="container">
                 <Heading title="Contact Us" />
                 <div className="row">
-                    <div className="col-10 col-sm-8 mx-auto">
+                    <div className="col-10 col-sm-8 mx-auto mb-4">
                         <form action="https://formspree.io/f/xyybknvr" method="POST" autoComplete="off">
                             <div className="form-group">
                                 <input 
@@ -16,6 +16,7 @@ export default function Contactform() {
                                     id="name" 
                                     placeholder="Your Name" 
                                     className="form-control"
+                                    required
                                 />
                             </div>
                             <div className="form-group">
@@ -25,6 +26,7 @@ export default function Contactform() {
                                     id="email" 
                                     placeholder="Your Email" 
                                     className="form-control"
+                                    required
                                 />
                             </div>
                             <div className="form-group">
@@ -34,6 +36,7 @@ export default function Contactform() {
                                     id="mobile" 
                                     placeholder="Your Mobile" 
                                     className="form-control"
+                                    required
                                 />
                             </div>
                             <div className="form-group">
@@ -43,6 +46,7 @@ export default function Contactform() {
                                     id="description" 
                                     placeholder="Your Message" 
                                     className="form-control"
+                                    required
                                 />
                             </div>
                             <button type="submit" className="btn btn-outline-info btn-block py-2 text-uppercase">Submit</button>
