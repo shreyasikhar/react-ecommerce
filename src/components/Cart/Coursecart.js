@@ -23,7 +23,7 @@ export default class Coursecart extends Component {
                                 return (
                                     <div
                                         key={node.id}
-                                        className="col-11 col-md-6 d-flex my-4 mx-auto"
+                                        className="col-11 col-md-6 d-flex mx-auto bg-white p-3 mb-4"
                                     >
                                         <Img fixed={node.image.fixed} />
                                         <div className="flex-grow-1 px-3">
@@ -39,7 +39,7 @@ export default class Coursecart extends Component {
                                                 data-item-name={node.title}
                                                 data-item-price={node.price}
                                                 
-                                                data-item-url="https://learncodeonline.in"
+                                                data-item-url="https://react-ecommerce-by-shreyas.netlify.app/"
                                                 data-item-image={node.image.fixed.src}
                                                 className="btn btn-warning snipcart-add-item"
                                             >Join Now</button>
